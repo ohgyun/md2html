@@ -1,6 +1,6 @@
 {
   "name": "md2html",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Convert markdown file to HTML.",
   "bin": {
     "md2html": "lib/md2html.js"
@@ -15,5 +15,10 @@
   ],
   "author": "Ohgyun Ahn",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "commander": "~1.1.1",
+    "jade": "~0.28.2",
+    "markdown": "~0.4.0"
+  }
 }
