@@ -1,10 +1,9 @@
 {
   "name": "md2html",
   "version": "0.1.0",
-  "description": "Make a HTML page that renders Markdown.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Convert markdown file to HTML.",
+  "bin": {
+    "md2html": "lib/md2html.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +15,5 @@
   ],
   "author": "Ohgyun Ahn",
   "license": "BSD",
-  "readmeFilename": "README.md",
-  "gitHead": "36fd1b6d1303967ed3a9b7b9c8246a614f999612"
+  "readmeFilename": "README.md"
 }
